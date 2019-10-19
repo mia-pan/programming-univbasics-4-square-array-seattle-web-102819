@@ -4,7 +4,7 @@ def square_array(array)
   while counter<array.length do
     puts array(count**2)
     count=+1
-    squared<<array
+    squared<<array(count**2)
   end
-  
+  squared
 end
